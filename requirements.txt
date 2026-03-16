@@ -1,0 +1,14 @@
+streamlit
+openai
+pypdf
+python-docx
+pdfminer.six
+python-dotenv
+pillow
+openpyxl
+reportlab
+
+
+
+
+

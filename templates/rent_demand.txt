@@ -1,0 +1,38 @@
+[DATE]
+
+TO: [TENANT_NAME]
+    [TENANT_ADDRESS], Apt [TENANT_UNIT]
+    [TENANT_CITY], [TENANT_STATE] [TENANT_ZIP]
+
+FROM: [LANDLORD_NAME]
+      [LANDLORD_ADDRESS]
+
+RE: FOURTEEN (14) DAY NOTICE TO PAY RENT OR QUIT
+    Premises: [PROPERTY_ADDRESS], Apt [TENANT_UNIT]
+
+Dear [TENANT_NAME],
+
+PLEASE TAKE NOTICE that you are in default of your rental obligations under your lease 
+agreement for the above-referenced premises. As of the date of this notice, you owe the 
+following amounts:
+
+    Monthly Rent:        $[MONTHLY_RENT]
+    Months Overdue:      [MONTHS_OVERDUE]
+    Total Amount Due:    $[TOTAL_OVERDUE]
+
+Pursuant to New York Real Property Law §711(2) and NYC Housing Court Rules, you are 
+hereby demanded to pay the full sum of $[TOTAL_OVERDUE] within FOURTEEN (14) DAYS 
+of the date of this notice, or to surrender possession of the above premises.
+
+If you fail to pay the full amount owed or vacate the premises within fourteen (14) days, 
+your landlord will commence a summary proceeding in Housing Court to recover possession 
+of the premises and will seek a judgment for all unpaid rent, costs, and attorney fees.
+
+This notice does not waive any rights of the landlord, including the right to proceed 
+for any future rent as it becomes due.
+
+Sincerely,
+
+_______________________________
+[LANDLORD_NAME]
+Date: [DATE]

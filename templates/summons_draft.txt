@@ -1,0 +1,41 @@
+[DATE]
+
+CIVIL COURT OF THE CITY OF NEW YORK
+COUNTY OF [COUNTY]
+
+[LANDLORD_NAME],
+                    Petitioner-Landlord,
+        -against-
+
+[TENANT_NAME],
+                    Respondent-Tenant.
+
+RE: NOTICE OF PETITION — HOUSING COURT PROCEEDING
+    Index No.: [CASE_NUMBER]
+    Premises: [PROPERTY_ADDRESS], Apt [TENANT_UNIT]
+
+TO THE RESPONDENT-TENANT:
+
+PLEASE TAKE NOTICE that a petition has been filed against you in the Housing Part 
+of the Civil Court of the City of New York, County of [COUNTY].
+
+YOU ARE HEREBY SUMMONED to appear at:
+
+    Housing Court — [COUNTY] County
+    [COURT_ADDRESS]
+    Date: [HEARING_DATE]
+    Time: 9:30 AM
+
+The nature of this proceeding: [ISSUE_SUMMARY]
+
+Amount sought: $[TOTAL_OVERDUE]
+
+IF YOU FAIL TO APPEAR, a default judgment may be entered against you for the 
+full amount claimed, plus interest, costs, and attorney fees.
+
+You have the right to be represented by an attorney. Free legal services may 
+be available. Contact Legal Aid Society at 212-577-3300 or NYC Bar at 212-626-7373.
+
+_______________________________
+[LANDLORD_NAME], Petitioner
+Date: [DATE]

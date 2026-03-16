@@ -1,0 +1,32 @@
+[DATE]
+
+TO: [TENANT_NAME]
+    [PROPERTY_ADDRESS], Apt [TENANT_UNIT]
+    [TENANT_CITY], [TENANT_STATE] [TENANT_ZIP]
+
+FROM: [LANDLORD_NAME]
+
+RE: NOTICE TO CURE LEASE VIOLATION
+    Premises: [PROPERTY_ADDRESS], Apt [TENANT_UNIT]
+
+Dear [TENANT_NAME],
+
+PLEASE TAKE NOTICE that you are in violation of your lease agreement dated [LEASE_START] 
+for the premises located at [PROPERTY_ADDRESS], Apt [TENANT_UNIT].
+
+The following lease violation(s) must be cured within TEN (10) DAYS of the date hereof:
+
+VIOLATION: [ISSUE_SUMMARY]
+
+You are hereby demanded to cure the above violation(s) within ten (10) days. 
+Failure to cure the violation(s) within the time specified will result in termination 
+of your tenancy and commencement of eviction proceedings pursuant to New York Real 
+Property Law §753 and applicable NYC Housing Court Rules.
+
+Please govern yourself accordingly.
+
+Sincerely,
+
+_______________________________
+[LANDLORD_NAME]
+Date: [DATE]

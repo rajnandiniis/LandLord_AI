@@ -1,0 +1,34 @@
+[DATE]
+
+TO: [TENANT_NAME]
+    [PROPERTY_ADDRESS], Apt [TENANT_UNIT]
+    [TENANT_CITY], [TENANT_STATE] [TENANT_ZIP]
+
+FROM: [LANDLORD_NAME]
+
+RE: NOTICE TO QUIT AND VACATE PREMISES
+    Premises: [PROPERTY_ADDRESS], Apt [TENANT_UNIT]
+
+Dear [TENANT_NAME],
+
+PLEASE TAKE NOTICE that your tenancy of the above-referenced premises is hereby 
+terminated effective thirty (30) days from the date of this notice.
+
+You are hereby required to quit and surrender possession of the premises located at 
+[PROPERTY_ADDRESS], Apt [TENANT_UNIT], on or before [DEADLINE_DATE].
+
+Grounds for termination: [ISSUE_SUMMARY]
+
+Pursuant to New York Real Property Law §226-c and applicable NYC regulations, if you 
+fail to vacate the premises by the date specified above, your landlord will commence 
+a summary holdover proceeding in the Housing Court of the City of New York to recover 
+possession of the premises, and will seek all costs, disbursements, and attorney fees.
+
+This notice is given without prejudice to any and all rights and remedies of the 
+landlord, all of which are expressly reserved.
+
+Sincerely,
+
+_______________________________
+[LANDLORD_NAME]
+Date: [DATE]
