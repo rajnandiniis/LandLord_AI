@@ -22,35 +22,35 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 
 
-## Project Structure
+## 📂 Project Structure
 
-```
+```text
 landlordai_v2/
-├── app.py                    ← UI only (Streamlit)
+├── app.py                     # UI only (Streamlit)
 ├── agents/
-│   ├── reader_agent.py       ← Agent 1: reads violations
-│   ├── research_agent.py     ← Agent 2: builds strategy
-│   ├── writer_agent.py       ← Agent 3: writes letters
-│   └── document_agent.py     ← Agent 4: scrapes data + generates summons
+│   ├── reader_agent.py        # Agent 1: reads violations
+│   ├── research_agent.py      # Agent 2: builds strategy
+│   ├── writer_agent.py        # Agent 3: writes letters
+│   └── document_agent.py      # Agent 4: scrapes data + generates summons
 ├── utils/
-│   ├── extractor.py          ← PDF/DOCX/Image text extraction
-│   ├── excel_processor.py    ← Builds Excel database (3 sheets)
-│   ├── pdf_generator.py      ← Creates PDF documents
-│   └── validator.py          ← Edge case checks
+│   ├── extractor.py           # PDF/DOCX/Image text extraction
+│   ├── excel_processor.py     # Builds Excel database (3 sheets)
+│   ├── pdf_generator.py       # Creates PDF documents
+│   └── validator.py           # Edge case checks
 ├── config/
-│   └── settings.py           ← Constants, violation data, prompt loader
+│   └── settings.py            # Constants, violation data, prompt loader
 ├── prompts/
-│   ├── reader_prompt.txt     ← AI prompt for violation reading
-│   ├── research_prompt.txt   ← AI prompt for strategy
-│   ├── writer_prompt.txt     ← AI prompt for letters
-│   └── document_prompt.txt   ← AI prompt for scraping + summons
+│   ├── reader_prompt.txt      # AI prompt for violation reading
+│   ├── research_prompt.txt    # AI prompt for strategy
+│   ├── writer_prompt.txt      # AI prompt for letters
+│   └── document_prompt.txt    # AI prompt for scraping + summons
 ├── templates/
-│   ├── rent_demand.txt       ← Legal template
-│   ├── notice_to_cure.txt    ← Legal template
-│   ├── eviction_notice.txt   ← Legal template
-│   └── summons_draft.txt     ← Legal template
+│   ├── rent_demand.txt        # Legal template
+│   ├── notice_to_cure.txt     # Legal template
+│   ├── eviction_notice.txt    # Legal template
+│   └── summons_draft.txt      # Legal template
 └── requirements.txt
-```
+
 
 ## Features
 
