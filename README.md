@@ -1,14 +1,26 @@
 # 🏛️ LandlordAI v2 — NYC Property Violation Assistant
 
 > Upload any violation → AI analyzes → action plan + letters + summons in 60 seconds
+## 📺 Demo & How It Works
 
-## Quick Start
+📽️ **[Click here to watch the LandlordAI v2 Demo](https://drive.google.com/file/d/1zKfknYlFOVDRHy0KEWmVVqSeT-pX7Bow/view?usp=drivesdk)**
+*(Recommended: Watch on 2x speed)*
+
+
+### The Workflow:
+1. **Upload:** Drop your HPD/DOB violation notice (PDF/Image).
+2. **Analyze:** `Reader Agent` extracts data while `Research Agent` builds a strategy.
+3. **Draft:** `Writer Agent` generates legal letters and `Document Agent` scrapes extra data for the summons.
+4. **Export:** Download your ready-to-use PDF packages and Excel databases.
+
+## 🚀 Quick Start
 
 ```powershell
+# Clone and run locally
 cd landlordai_v2
 pip install -r requirements.txt
 python -m streamlit run app.py
-```
+
 
 ## Project Structure
 
