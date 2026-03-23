@@ -1,76 +1,163 @@
-# 🏛️ LandlordAI v2 — NYC Property Violation Assistant
 
-> Upload any violation → AI analyzes → action plan + letters + summons in 60 seconds
-## 📺 Demo & How It Works
+# 🏛️ LandlordAI v2 — AI Assistant for Property Violations
 
-📽️ **[Click here to watch the LandlordAI v2 Demo](https://drive.google.com/file/d/1zKfknYlFOVDRHy0KEWmVVqSeT-pX7Bow/view?usp=drivesdk)**
-*(Recommended: Watch on 2x speed)*
+> Upload a violation notice → get analysis, action plan, and legal documents in seconds.
 
+---
 
-### The Workflow:
-1. **Upload:** Drop your HPD/DOB violation notice (PDF/Image).
-2. **Analyze:** `Reader Agent` extracts data while `Research Agent` builds a strategy.
-3. **Draft:** `Writer Agent` generates legal letters and `Document Agent` scrapes extra data for the summons.
-4. **Export:** Download your ready-to-use PDF packages and Excel databases.
+## 📺 Demo
 
-## 🚀 Quick Start
+📽️ **[Watch Demo](https://drive.google.com/file/d/1zKfknYlFOVDRHy0KEWmVVqSeT-pX7Bow/view?usp=drivesdk)**  
+*(Recommended: Watch at 2x speed)*
 
-```powershell
+---
+
+## 🌟 Why This Matters
+
+Handling property violations (HPD/DOB) is **time-consuming, confusing, and expensive**.
+
+Landlords often struggle with:
+- Understanding complex legal notices  
+- Knowing the correct next steps  
+- Drafting legally sound responses  
+- Managing multiple violations simultaneously  
+
+**LandlordAI v2 simplifies this entire workflow using AI.**
+
+---
+
+## 🚀 What It Does
+
+### 📄 Upload & Analyze
+- Upload violation notices (PDF/Image)  
+- Automatically extracts key details  
+- Identifies violation type, severity, and required actions  
+
+---
+
+### 🧠 AI-Powered Strategy
+- Generates a **clear step-by-step action plan**  
+- Suggests how to resolve violations effectively  
+- Provides contextual guidance based on case data  
+
+---
+
+### 📝 Auto-Generated Legal Documents
+- Rent demand notices  
+- Notice to cure  
+- Eviction notices  
+- Draft summons  
+
+👉 Ready-to-use documents in seconds  
+
+---
+
+### 📊 Data Extraction & Case Tracking
+- Converts unstructured documents into structured data  
+- Builds Excel sheets for tracking cases  
+- Maintains session-based history for easy access  
+
+---
+
+## 🤖 Multi-Agent System
+
+The system uses specialized AI agents working together:
+
+- **Reader Agent** → Extracts and understands violation data  
+- **Research Agent** → Builds resolution strategy  
+- **Writer Agent** → Generates legal documents  
+- **Document Agent** → Prepares structured outputs and summons  
+
+👉 Simulates a real-world legal workflow using AI collaboration  
+
+---
+
+## ⚙️ Running the Project
+
+```bash
 # Clone and run locally
 cd landlordai_v2
 pip install -r requirements.txt
-python -m streamlit run app.py
+streamlit run app.py
+````
 
+---
+
+## 🧩 Features Overview
+
+| Feature              | Description                                |
+| -------------------- | ------------------------------------------ |
+| 📋 Analyze Violation | Upload notice → AI generates full analysis |
+| 💬 Legal Assistant   | Chat-based guidance for property law       |
+| 📂 Case History      | Track analyzed violations                  |
+| 📚 Law Guide         | Info on NYC violations and fines           |
+| 📊 Scrape & Summons  | Extract data + generate legal documents    |
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Streamlit (UI)
+* LLM-based Multi-Agent System
+* PDF/Image Processing
+* Excel + Document Generation
+
+---
 
 ## 📂 Project Structure
 
-```text
+```
 landlordai_v2/
-├── app.py                     # UI only (Streamlit)
+├── app.py
 ├── agents/
-│   ├── reader_agent.py        # Agent 1: reads violations
-│   ├── research_agent.py      # Agent 2: builds strategy
-│   ├── writer_agent.py        # Agent 3: writes letters
-│   └── document_agent.py      # Agent 4: scrapes data + generates summons
 ├── utils/
-│   ├── extractor.py           # PDF/DOCX/Image text extraction
-│   ├── excel_processor.py     # Builds Excel database (3 sheets)
-│   ├── pdf_generator.py       # Creates PDF documents
-│   └── validator.py           # Edge case checks
 ├── config/
-│   └── settings.py            # Constants, violation data, prompt loader
 ├── prompts/
-│   ├── reader_prompt.txt      # AI prompt for violation reading
-│   ├── research_prompt.txt    # AI prompt for strategy
-│   ├── writer_prompt.txt      # AI prompt for letters
-│   └── document_prompt.txt    # AI prompt for scraping + summons
 ├── templates/
-│   ├── rent_demand.txt        # Legal template
-│   ├── notice_to_cure.txt     # Legal template
-│   ├── eviction_notice.txt    # Legal template
-│   └── summons_draft.txt      # Legal template
 └── requirements.txt
+```
 
+---
 
-## Features
+## 🌍 Real-World Impact
 
-| Tab | Feature |
-|-----|---------|
-| 📋 Analyze Violation | Upload HPD/DOB notice → 3 AI agents → full analysis |
-| 💬 Legal Assistant | Chat with NYC property law AI |
-| 📂 Case History | All violations analyzed this session |
-| 📚 NYC Law Guide | Violation classes, agencies, fine reduction tips |
-| 📊 Scrape & Summons | Upload any doc → extract to Excel → generate summons PDFs |
+This system can:
 
-## Appearance Settings (in sidebar)
+* ⏱️ Reduce hours of manual legal work to seconds
+* 💰 Lower reliance on expensive legal consultations
+* 📊 Help landlords manage multiple cases efficiently
+* ⚡ Improve response time to violations
 
-- 🌙 Dark / ☀️ Light mode
-- 🟡 Gold / 🔵 Blue / 🟢 Green / 🔴 Rose accent colors
-- Font size: Small / Medium / Large
-- Compact mode toggle
+👉 Useful for landlords, property managers, and legal assistants
 
-## Pricing Suggestion
+---
 
-- Pay per notice: $25
-- Basic: $99/month (10 violations)
-- Pro: $199/month (unlimited + summons generator)
+## 💡 What Makes It Interesting
+
+* Combines **multi-agent AI + document intelligence**
+* Converts unstructured legal documents into actionable insights
+* Demonstrates practical AI application in legal workflows
+
+---
+
+## 💰 Potential Pricing Model
+
+* Pay per notice: $25
+* Basic Plan: $99/month (10 violations)
+* Pro Plan: $199/month (unlimited + summons generation)
+
+---
+
+## 👩‍💻 Author
+
+Rajnandini Shinde
+
+---
+
+## ⭐ Final Thought
+
+Legal workflows are complex — but many steps are repetitive.
+
+**LandlordAI v2 shows how AI can automate and simplify real-world legal processes.**
+
