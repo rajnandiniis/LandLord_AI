@@ -1,5 +1,5 @@
 
-# 🏛️ LandlordAI v2 — AI Assistant for Property Violations
+# 🏛️ LandlordAI — AI Assistant for Property Violations
 
 > Upload a violation notice → get analysis, action plan, and legal documents in seconds.
 
