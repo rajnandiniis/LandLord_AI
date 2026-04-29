@@ -7,7 +7,7 @@
 
 ## 📺 Demo
 
-📽️ **[Watch Demo](https://drive.google.com/file/d/1zKfknYlFOVDRHy0KEWmVVqSeT-pX7Bow/view?usp=drivesdk)**  
+📽️ **[Watch Demo](https://youtu.be/j-kKY6Rg9Us)**  
 *(Recommended: Watch at 2x speed)*
 
 ---
